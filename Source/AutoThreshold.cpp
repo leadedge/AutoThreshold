@@ -42,6 +42,7 @@
 //		------------------------------------------------------------
 //		Revisions :
 //		12-01-15	Version 1.000
+//		10-03-16	Branch test
 //
 //		------------------------------------------------------------
 //
@@ -868,7 +869,7 @@ int AutoThreshold::otsu(int Width, int Height, unsigned short hist[256])
 	double prob[256], omega[256]; // prob of graylevels
 	double myu[256];   // mean value for separation
 	double max_sigma, sigma[256]; // inter-class variance
-	int i, x, y; // Loop variable
+	int i; // , x, y; // Loop variable
 	int threshold; // threshold for binarization
   
 	// calculation of probability density 
